@@ -11,7 +11,7 @@ export const Dashborad = styled.div`
     border-radius: 24px;
     .chart-container{
         height: 96%;
-        margin: 0 100px;
+        margin: 0 2vw;
         display: flex;
         justify-content: center;
         align-items: center;

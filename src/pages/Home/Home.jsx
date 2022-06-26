@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { HomeHeader, HomeContainer } from "../Home/style.js"
 import { PageHeader, Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined } from '@ant-design/icons';
+import { AreaChartOutlined, AppstoreOutlined } from '@ant-design/icons';
 const items = [
     {
         label: '舰船电力系统',
         key: '/',
-        icon: <MailOutlined />,
+        icon: <AreaChartOutlined />,
     },
     {
         label: '舰船电站',
