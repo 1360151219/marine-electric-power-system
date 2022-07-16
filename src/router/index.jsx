@@ -4,8 +4,8 @@ import { useRoutes } from 'react-router-dom';
 import Home from "../pages/Home/Home"
 import Electronic from "../pages/Electronic/Electronic"
 import DashBoard from "../pages/DashBoard/DashBoard";
-
-
+import Generator from "../pages/Generator/Generator";
+import Panel from "../pages/Panel/Panel";
 const router = [
     {
         path: '/',
@@ -18,6 +18,14 @@ const router = [
             {
                 element: <Electronic />,
                 path: '2',
+            },
+            {
+                element: <Generator />,
+                path: '3',
+            },
+            {
+                element: <Panel />,
+                path: '4',
             }
         ],
     }
